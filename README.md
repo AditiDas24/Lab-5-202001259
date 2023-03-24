@@ -1,16 +1,16 @@
-# Lab-5-202001259
+# Lab-5_202001259
 																																																																									[IT314]                                                                                                                                                      
 <h3> Name : Aditi Das </h3>                                                                                                                                 
 <h3> Student ID : 202001259 </h3>  
 <h3> Date : 24th March 2023 </h3>  
-  
+ 
  <br>
 
-<h5> The link of the repository used is as follows : https://github.com/Andrea-Depe/Pac-man.git
+<h4> The link of the repository used is as follows : https://github.com/Andrea-Depe/Pac-man.git </h4>
 
 
 <h3> Static Analysis </h3>
-<h5> Static Analysis is the automated analysis of source code without actually executing the program. It helps us in detecting bugs, errors and finding out where code might be vulnerable. It checks for syntax, logic, data flow and security and other such issues. It can improve the reliablity and performance of the program. </h5>
+<h4> Static Analysis is the automated analysis of source code without actually executing the program. It helps us in detecting bugs, errors and finding out where code might be vulnerable. It checks for syntax, logic, data flow and security and other such issues. It can improve the reliablity and performance of the program. </h4>
 
 
 
@@ -68,12 +68,16 @@ not leaving enough lines in between code, etc. <br>
 not leaving enough lines in between code, etc. <br>
 
 
-<h5> Another thing to note here is that each error is preceeded by a character in red that represents a particular type of error. <br>
-These error codes are as follows: </h5>
+<h4> Another thing to note here is that each error is preceeded by a character in red that represents a particular type of error. 
+	<br>
+These error codes are as follows: </h4>
 
-1. W - Warning : This represents specific programming language, in this case, Python related problems. These won't stop execution of code.
-2. E - Error : These represent errors on a specific line of code that would hamper execution.
+1. W : This is a part of pyflakes and represents specific programming language, in this case, Python related problems. These won't stop execution of code.
+2. E : This is a part of pyflakes and represents errors on a specific line of code that would hamper execution.
 3. F : This is a part of pyflakes and represents the F class of error codes that represent unused variables, imports, etc.
+
+	Apart from this, there exists another class of errors called the "C" class that is from mccabe and calculates the McCabe complexity of code.
+ 
 
 
 
